@@ -1,8 +1,8 @@
 const { func } = require('prop-types');
 const puppeteer=require('puppeteer')
 const loginLink='https://www.hackerrank.com/auth/login'
-const email='hardeep33809@gmail.com';
-const password='Hardeep@123'
+const email='ENTER YOUR HACKERANK EMAIL';
+const password='ENTER YOUR PASSWORD'
 const codeObj=require('./codes')
 let browserOpen=puppeteer.launch({
     headless:false,
